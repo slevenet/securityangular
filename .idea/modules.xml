@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/admin/double-admin.iml" filepath="$PROJECT_DIR$/admin/double-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/double-gateway.iml" filepath="$PROJECT_DIR$/gateway/double-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource/double-resource.iml" filepath="$PROJECT_DIR$/resource/double-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui/double-ui.iml" filepath="$PROJECT_DIR$/ui/double-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/src/main/main.iml" filepath="$PROJECT_DIR$/gateway/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource/src/main/main1.iml" filepath="$PROJECT_DIR$/resource/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui/src/main/main2.iml" filepath="$PROJECT_DIR$/ui/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin/src/main/main3.iml" filepath="$PROJECT_DIR$/admin/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pairs-double.iml" filepath="$PROJECT_DIR$/pairs-double.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui/src/test/test.iml" filepath="$PROJECT_DIR$/ui/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource/src/test/test1.iml" filepath="$PROJECT_DIR$/resource/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/src/test/test2.iml" filepath="$PROJECT_DIR$/gateway/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin/src/test/test3.iml" filepath="$PROJECT_DIR$/admin/src/test/test3.iml" />
+    </modules>
+  </component>
+</project>
