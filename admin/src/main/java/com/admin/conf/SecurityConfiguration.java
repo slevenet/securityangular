@@ -14,13 +14,11 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
   protected void configure(HttpSecurity http) throws Exception {
     // @formatter:off
     http
-      .httpBasic()
-      .and()
       .authorizeRequests()
       .antMatchers("/index.html", "/").permitAll()
-      .anyRequest().hasRole("ADMIN");
-/*			.and()
-				.csrf().disable();*/
+      .anyRequest().hasRole("ADMIN")
+			.and()
+				.csrf().disable();
     // @formatter:on
   }
 
@@ -29,7 +27,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     // Setting Service to find User in the database.
     // And Setting PassswordEncoder
-    auth.userDetailsService()
+   // auth.userDetailsService()
    // auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder());
 
   }

@@ -20,4 +20,9 @@
       <module name="pairs-double" target="1.5" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="main3" options="--add-exports=java.xml.crypto/com.sun.org.slf4j.internal=ALL-UNNAMED" />
+    </option>
+  </component>
 </project>
