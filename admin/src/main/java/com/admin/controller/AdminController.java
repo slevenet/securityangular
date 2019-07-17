@@ -20,6 +20,7 @@ public class AdminController {
   @GetMapping("/user")
   @ResponseBody
   public Map<String, Object> user(Principal user) {
+    System.out.println("user  ========== " + user.getName() + " | " + user.toString());
     Map<String, Object> map = new LinkedHashMap<String, Object>();
     map.put("name", user.getName());
     map.put("roles", AuthorityUtils.authorityListToSet(((Authentication) user).getAuthorities()));

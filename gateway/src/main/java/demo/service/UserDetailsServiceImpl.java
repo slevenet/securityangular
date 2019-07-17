@@ -1,6 +1,6 @@
-package com.admin.service;
+package demo.service;
 
-import com.admin.model.AppUser;
+import demo.model.AppUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

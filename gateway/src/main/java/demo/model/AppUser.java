@@ -1,4 +1,4 @@
-package com.admin.model;
+package demo.model;
 
 public class AppUser {
   private Long userId;
